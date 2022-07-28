@@ -7,7 +7,7 @@ import java.util.List;
 public interface ITeamDAO {
     List<Team> fetchAllTeams();
 
-    Team findById(int teamId);
+    Team findTeamById(int teamId);
 
     Team save(Team team);
 }

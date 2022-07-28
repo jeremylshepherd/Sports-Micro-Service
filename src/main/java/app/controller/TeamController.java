@@ -15,7 +15,7 @@ import java.util.List;
 public class TeamController {
 
     @Autowired
-    TeamService teamService;
+    private TeamService teamService;
 
     @RequestMapping("/teams")
     public String team(Model model){

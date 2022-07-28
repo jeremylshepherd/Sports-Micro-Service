@@ -11,5 +11,5 @@ public interface IPlayerDAO {
 
     List<Player> fetchAllPlayers();
 
-    Player fetchById(int id);
+    Player fetchPlayerById(int id);
 }

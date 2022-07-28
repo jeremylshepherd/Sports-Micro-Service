@@ -22,7 +22,7 @@ import java.util.List;
 public class PlayerController {
 
     @Autowired
-    PlayerService playerService;
+    private PlayerService playerService;
 
     @RequestMapping("/")
     public String index(Model model){

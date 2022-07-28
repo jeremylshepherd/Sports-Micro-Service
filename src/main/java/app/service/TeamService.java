@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class TeamService{
+public class TeamService implements ITeamService {
 
     @Autowired
     private ITeamDAO teamDAO;

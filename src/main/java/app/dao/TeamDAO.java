@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public class TeamDAO implements ITeamDAO {
-    List<Team> teamList = new ArrayList<>();
+    private final List<Team> teamList = new ArrayList<>();
 
     @Override
     public List<Team> fetchAllTeams() {
@@ -16,7 +16,7 @@ public class TeamDAO implements ITeamDAO {
     }
 
     @Override
-    public Team findById(int teamId) {
+    public Team findTeamById(int teamId) {
         return null;
     }
 

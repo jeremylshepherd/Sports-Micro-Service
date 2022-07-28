@@ -21,9 +21,8 @@ public class PlayerService implements IPlayerService{
     }
 
     @Override
-    public Player fetchById(int id) {
-        Player foundPlayer = playerDAO.fetchById(id);
-        return foundPlayer;
+    public Player fetchPLayerById(int id) {
+        return playerDAO.fetchPlayerById(id);
     }
 
     @Override

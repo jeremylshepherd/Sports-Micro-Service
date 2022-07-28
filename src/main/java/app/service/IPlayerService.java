@@ -1,13 +1,12 @@
 package app.service;
 
 import app.model.Player;
-import org.springframework.cache.annotation.Cacheable;
 
 import java.util.List;
 
 public interface IPlayerService {
 
-    Player fetchById(int id);
+    Player fetchPLayerById(int id);
 
     List<Player> fetchAllPlayers();
 

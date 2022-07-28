@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public class PlayerDAO implements IPlayerDAO {
 
-    List<Player> playerCollection = new ArrayList<>();
+    private final List<Player> playerCollection = new ArrayList<>();
 
     @Override
     public Player savePlayer(Player player) throws Exception {
@@ -23,7 +23,7 @@ public class PlayerDAO implements IPlayerDAO {
     }
 
     @Override
-    public Player fetchById(int id) {
+    public Player fetchPlayerById(int id) {
         return null;
     }
 }
